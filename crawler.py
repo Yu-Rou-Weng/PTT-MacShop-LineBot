@@ -57,8 +57,3 @@ def ptt_alert(keyword):
         return '\n'.join(title_list)  
     except Exception as e:
         print('執行期間錯誤：%s' %(e))
-        
-
-
-#ptt_alert("AirPods")
-#print(ptt_alert("AirPods"))
