@@ -7,13 +7,13 @@ topicDb = []
 topicDic = dict()
 
 # key-value Pair
-productList = {"AirPods": ["Airpods", "AirPods", "airpods","Airpod2","airpods2","AirPods2","Airpods2","airpods3","Airpod","Air Pods2","Air Pods","Air pods3","Airpods2(bts)","airpods 2"],  
-               "MacBook": ["MacBook", "Macbook", "macbook"],
-               "iPhone": ["iPhone", "iphone","IPHONE","Iphone"],
-               "iPad": ["ipad", "iPad","Ipad"],
-               "Pencil": ["pencil", "Pencil"],
-               "Watch": ["watch", "Watch"],
-               "iMac": ["iMac", "imac"],
+productList = {"1": ["Airpods", "AirPods", "airpods","Airpod2","airpods2","AirPods2","Airpods2","airpods3","Airpod","Air Pods2","Air Pods","Air pods3","Airpods2(bts)","airpods 2"],  
+               "2": ["MacBook", "Macbook", "macbook"],
+               "3": ["iPhone", "iphone","IPHONE","Iphone"],
+               "4": ["ipad", "iPad","Ipad"],
+               "5": ["pencil", "Pencil"],
+               "6": ["watch", "Watch"],
+               "7": ["iMac", "imac"],
                }
 
 
@@ -57,3 +57,4 @@ def ptt_alert(keyword):
         return '\n'.join(title_list)  
     except Exception as e:
         print('執行期間錯誤：%s' %(e))
+print(ptt_alert("1"))
