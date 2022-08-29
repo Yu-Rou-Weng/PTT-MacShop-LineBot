@@ -52,27 +52,27 @@ def callback():
 def handle_message(event):
     msg = event.message.text
     
-    if 'AirPods' in msg:
+    if '1' in msg:
         message = TextSendMessage(text= ptt_alert(msg))
         line_bot_api.reply_message(event.reply_token, message)
         
-    elif 'MacBook' in msg:
+    elif '2' in msg:
         message = TextSendMessage(text=ptt_alert(msg))
         line_bot_api.reply_message(event.reply_token, message)
         
-    elif 'iPhone' in msg:
+    elif '3' in msg:
         message = TextSendMessage(text=ptt_alert(msg))
         line_bot_api.reply_message(event.reply_token, message)
-    elif 'iPad' in msg:
+    elif '4' in msg:
         message = TextSendMessage(text=ptt_alert(msg))
         line_bot_api.reply_message(event.reply_token, message)
-    elif 'Pencil' in msg:
+    elif '5' in msg:
         message = TextSendMessage(text=ptt_alert(msg))
         line_bot_api.reply_message(event.reply_token, message)
-    elif 'Watch' in msg:
+    elif '6' in msg:
         message = TextSendMessage(text=ptt_alert(msg))
         line_bot_api.reply_message(event.reply_token, message)  
-    elif 'iMac' in msg:
+    elif '7' in msg:
         message = TextSendMessage(text=ptt_alert(msg))
         line_bot_api.reply_message(event.reply_token, message)
 
