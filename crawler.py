@@ -46,11 +46,11 @@ def ptt_alert(keyword):
             for checkCorrectWord in productList[keyword]:
                 if checkCorrectWord in index["title"]:
                     # For Testing can be eliminated.
-                    print(index["title"],index["href"])
+                    #print(index["title"],index["href"])
                     temp="["+str(z)+"]  "+index["title"]+"\n"+index["href"]
                     title_list.append(temp)
-                    print('\n'.join(title_list))
-                    #index['sent'] = True
+                    #print('\n'.join(title_list))
+                    index['sent'] = True
                     z+=1  
         
         
