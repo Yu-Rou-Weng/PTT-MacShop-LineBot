@@ -1,3 +1,3 @@
 git add .
-git commit -am'ok'
+git commit -m "Final Success Version"
 git push heroku master
