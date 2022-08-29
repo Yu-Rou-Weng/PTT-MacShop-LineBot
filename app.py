@@ -12,6 +12,7 @@ from linebot import LineBotApi
 
 #======這裡是呼叫的檔案內容=====
 from crawler import *
+from custom import *
 #======這裡是呼叫的檔案內容=====
 
 #======python的函數庫==========
@@ -91,7 +92,17 @@ def handle_message(event):
         line_bot_api.reply_message(event.reply_token, message)  
     elif 'iMac' in msg:
         message = TextSendMessage(text=ptt_alert(msg))
-        line_bot_api.reply_message(event.reply_token, message)                          
+        line_bot_api.reply_message(event.reply_token, message)
+
+    elif 'help' in msg:
+        message = TextSendMessage(text=custom)
+        line_bot_api.reply_message(event.reply_token, message)
+    elif 'Help' in msg:
+        message = TextSendMessage(text=custom)
+        line_bot_api.reply_message(event.reply_token, message)
+    elif 'HELP' in msg:
+        message = TextSendMessage(text=custom)
+        line_bot_api.reply_message(event.reply_token, message)                             
     else:
         message = TextSendMessage(text=msg)
         line_bot_api.reply_message(event.reply_token, message)
