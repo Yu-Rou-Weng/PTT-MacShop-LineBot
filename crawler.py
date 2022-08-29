@@ -9,8 +9,8 @@ topicDic = dict()
 # key-value Pair
 productList = {"AirPods": ["Airpods", "AirPods", "airpods","Airpod2","airpods2","AirPods2","Airpods2","airpods3","Airpod","Air Pods2","Air Pods","Air pods3","Airpods2(bts)","airpods 2"],  
                "MacBook": ["MacBook", "Macbook", "macbook"],
-               "iPhone": ["iPhone", "iphone"],
-               "iPad": ["ipad", "iPad"],
+               "iPhone": ["iPhone", "iphone","IPHONE","Iphone"],
+               "iPad": ["ipad", "iPad","Ipad"],
                "Pencil": ["pencil", "Pencil"],
                "Watch": ["watch", "Watch"],
                "iMac": ["iMac", "imac"],
