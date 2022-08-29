@@ -61,4 +61,4 @@ def ptt_alert(keyword):
 
 
 #ptt_alert("AirPods")
-print(ptt_alert("AirPods"))
+#print(ptt_alert("AirPods"))
