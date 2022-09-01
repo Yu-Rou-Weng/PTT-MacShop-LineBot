@@ -19,7 +19,7 @@
 
 二、創建Heroku服務空間
 -------------
-1. 首先到**Heroku(https://www.heroku.com/)官網**註冊帳號**👉網址:https://www.heroku.com/**<br /><br />
+1. 首先到**Heroku官網**註冊帳號**👉網址:https://www.heroku.com/**<br /><br />
 2. 創建完畢後點選網頁右上方的**New**底下**Create New APP**<br /><br />
 3. **App Name**填入自己取的名字(ex:oreo-linebot)、**Choose a region**按照預設的**United States**即可，填完後按**Create app**<br /><br />
 
