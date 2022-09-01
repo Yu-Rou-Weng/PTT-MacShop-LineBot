@@ -18,7 +18,7 @@
 ****
 三、使用
 =============
-1.git Clone此專案到本機上，在此資料夾下開啟Visual Studio Code(記得先刪除README.md，否則稍後push專案到Heroku上可能會失敗)<br />
+1.git Clone此專案到本機上，在此資料夾下開啟Visual Studio Code(記得先刪除README.md與圖片檔案，否則稍後push專案到Heroku上可能會失敗)<br />
 2.打開app.py，這裡須將程式碼中標記My Channel Access Token與My Channel Secret換成你剛才創好LineBot的Channel Access Token和Channel Secret<br />
 3.進到Line Develop網站上剛才創好的PTT-Macshop-Bot<br />
 4.進入Basic Settings頁籤中，看見Channel secret點選Issue後並把圖中代碼複製後貼到app.py對應的程式碼裡<br />
