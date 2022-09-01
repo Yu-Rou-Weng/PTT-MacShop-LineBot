@@ -52,7 +52,7 @@ git init
 ```
 #### 綁定Heroku APP服務空間
 ```
-heroku git:remote -a APP Name
+heroku git:remote -a APP_Name
 ```
 #### 資料夾下已建好heroku_push.bat檔案
 ##### 上傳檔案指令
