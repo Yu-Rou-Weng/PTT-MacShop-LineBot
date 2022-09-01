@@ -74,7 +74,7 @@ heroku_push.bat
 
 七、點選影片以跳轉到Youtube觀看Demo影片
 -------------
-[![IMAGE ALT TEXT](https://github.com/Emily-Weng/PTT-MacShop-Notifier/blob/main/line-notify.jpg)]([https://www.youtube.com/watch?v=yw8b3av3hro](https://www.youtube.com/watch?v=_Wi5hbto9QA) "PTT-MacShop-LineBot成果展示")]
+[![IMAGE ALT TEXT](https://github.com/Yu-Rou-Weng/PTT-MacShop-LineBot/blob/master/%E9%A0%90%E8%A6%BD.jpg)](https://youtu.be/BAt43ldx5pA "PTT-MacShop-LineBot成果展示")
 
 八、參考教學網址:
 -------------
