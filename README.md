@@ -9,7 +9,9 @@
 2.進入Provider頁面，點選Create按鈕，依照要求為自己的Provider Name輸入名字，這個就會是你LineBot機器人的名字，填完按Create儲存<br />
 3.點選我們剛創完的Provider，點擊畫面的"Create a Messaging API channel"<br />
 4.接著會進到Create a new channel畫面，這裡僅需把必填的欄位給入正確資訊即可，另外頭像的圖片(icon)可以依自身喜好新增，按create後屬於你自己的LineBot就建好啦!<br />
-5.
+二、創建Heroku帳號
+=============
+1.首先先到Heroku官網註冊帳號 => 網址:https://www.heroku.com/
 ****
 **A line notify bot that can instantly notify yourself the latest page of AirPods selling articles on the PTT-MacShop board**
 ****
