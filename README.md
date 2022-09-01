@@ -5,9 +5,9 @@
 ****
 一、創建Line Bot 帳號
 =============
-1.進入Line Developer官方網站，使用自己的Line帳號登入<br />https://developers.line.biz/zh-hant/<br />
+1.進入Line Developer官方網站，使用自己的Line帳號登入<br />網址:https://developers.line.biz/zh-hant/<br />
 2.進入Provider頁面，點選Create按鈕，依照要求為自己的Provider Name輸入名字，這個就會是你LineBot機器人的名字，填完按Create儲存<br />
-3.點選我們剛創完的Provider，點擊畫面的"Create a Messaging API channel"
+3.點選我們剛創完的Provider，點擊畫面的"Create a Messaging API channel"<br />
 4.
 ****
 **A line notify bot that can instantly notify yourself the latest page of AirPods selling articles on the PTT-MacShop board**
