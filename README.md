@@ -28,7 +28,21 @@
 =============
 1.進到Heroku上你創建好的App裡(譬如我的叫做oreo-linebot)<br /> 
 2.點選Settings頁籤，複製圖中Your app can be found at後的網址<br /> 
-3.
+3.進入你的Line Developer在Webhook URL複製剛才的網址並在後面加上"/callback"後儲存<br />
+4.下方有個Use webhook要按開啟<br />
+5.下方有Auto-reply messages(Line Bot自動回覆訊息功能)必須設為停用<br />
+6.Greeting messages為一開始加入LineBot的"加入好友的歡迎訊息"，本專案是自行設定如下:<br />
+{Nickname}您好！
+我是{AccountName}。
+感謝您加入好友(moon wink)
+
+(red arrow right)此帳號會依據您輸入的關鍵字，提供您PTT-Macshop版前三頁該產品販售最新資訊
+
+(warning)若輸入關鍵字機器人無回應，代表PTT-Macshop版前三頁目前無該產品販售資訊
+
+(!)使用須知:
+
+請輸入 "Help" 或 "help" 或 "HELP" ，本帳號將提供您關鍵字清單，請依指示操作，感謝您的使用!
 ****
 四、上傳專案到Heroku
 =============
