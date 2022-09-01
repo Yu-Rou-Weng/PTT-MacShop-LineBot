@@ -15,7 +15,12 @@
 1.首先到Heroku官網註冊帳號<br />網址:https://www.heroku.com/<br />
 2.創建完畢後點選網頁右上方的New底下Create New APP<br />
 3.App Name填入自己取的名字(EX:oreo-linebot)、Choose a region按照預設的United States即可，填完後按Create app<br />
-
+****
+三、使用
+=============
+1.git Clone此專案到本機上，在此資料夾下開啟Visual Studio Code<br />
+2.打開app.py，這裡須將程式碼中標記My Channel Access Token與My Channel Secret換成你剛才創好LineBot的Channel Access Token和Channel Secret<br />
+3.
 ****
 **A line notify bot that can instantly notify yourself the latest page of AirPods selling articles on the PTT-MacShop board**
 ****
