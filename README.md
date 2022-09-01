@@ -65,7 +65,7 @@ git push heroku master (push到heroku上)<br /><br />
 ****
 **Click this picture to turn to the youtube vedio👇**
 
-[![IMAGE ALT TEXT](https://github.com/Emily-Weng/PTT-MacShop-Notifier/blob/main/line-notify.jpg)]([https://www.youtube.com/watch?v=yw8b3av3hro](https://www.youtube.com/watch?v=_Wi5hbto9QA) "PTT-MacShop-LineBot成果展示")]
+[![IMAGE ALT TEXT](https://github.com/Emily-Weng/PTT-MacShop-Notifier/blob/main/line-notify.jpg)]([[https://www.youtube.com/watch?v=yw8b3av3hro](https://youtu.be/BAt43ldx5pA)] "PTT-MacShop-LineBot成果展示")]
 ****
 參考教學網址
 =============
