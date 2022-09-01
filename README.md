@@ -14,7 +14,7 @@
 =============
 1.首先到Heroku官網註冊帳號<br />網址:https://www.heroku.com/<br />
 2.創建完畢後點選網頁右上方的New底下Create New APP<br />
-3.App Name填入自己取的名字(EX:oreo-linebot)、Choose a region按照預設的United States即可，填完後按Create app<br />
+3.App Name填入自己取的名字(ex:oreo-linebot)、Choose a region按照預設的United States即可，填完後按Create app<br />
 ****
 三、使用
 =============
