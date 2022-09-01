@@ -3,6 +3,7 @@
 ****  
   **[使用須知]: 跑此專案需在本機下載最新版本的Python、創建Heroku帳號、創建LineBot帳號**
 ****
+
 ****
 **A line notify bot that can instantly notify yourself the latest page of AirPods selling articles on the PTT-MacShop board**
 ****
