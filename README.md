@@ -1,7 +1,7 @@
 # PTT-MacShop-LineBot
 **暑假自學的簡易Line Notify Bot with @jieyu891225**
 ****  
-  **[使用須知]:<br />User：掃描我們的QRcode即可使用該服務<br />如果想下載此專案並自行創建LineBot請依下面指示<br />跑此專案需在本機下載最新版本的Python、創建Heroku帳號、創建LineBot帳號**
+  **[使用須知]:<br />User：掃描我們的QRcode即可使用該服務<br />如果想下載此專案並自行創建LineBot請依下面指示<br />跑此專案需在本機下載最新版本的Python、Git套件、創建Heroku帳號、創建LineBot帳號**
 ****
 一、創建Line Bot 帳號
 =============
@@ -18,12 +18,25 @@
 ****
 三、使用
 =============
-1.git Clone此專案到本機上，在此資料夾下開啟Visual Studio Code<br />
+1.git Clone此專案到本機上，在此資料夾下開啟Visual Studio Code(記得先刪除README.md，否則稍後push專案到Heroku上可能會失敗)<br />
 2.打開app.py，這裡須將程式碼中標記My Channel Access Token與My Channel Secret換成你剛才創好LineBot的Channel Access Token和Channel Secret<br />
-3.
+3.進到Line Develop網站上剛才創好的PTT-Macshop-Bot<br />
+4.進入Basic Settings頁籤中，看見Channel secret點選Issue後並把圖中代碼複製後貼到app.py對應的程式碼裡<br />
+5.接著進入Messaging API頁籤，點選Channel access token旁的Reissue後，隨意給個24 hr，把跳出的一串代碼一樣複製到app.py對應的程式碼裡<br />
+****
+四、上傳專案到Heroku
+=============
+1.在專案的資料夾底下已建好一個heroku_push.bat的檔案裡<br />
+2.在heroku_push.bat已寫好<br />
+git add . (把所有檔案加入)<br />
+git commit -m "Final Success Version" (填寫commit資訊)<br />
+git push heroku master (push到heroku上)<br />
 ****
 **A line notify bot that can instantly notify yourself the latest page of AirPods selling articles on the PTT-MacShop board**
 ****
 **Click this picture to turn to the youtube vedio👇**
 
 [![IMAGE ALT TEXT](https://github.com/Emily-Weng/PTT-MacShop-Notifier/blob/main/line-notify.jpg)](https://www.youtube.com/watch?v=yw8b3av3hro "PTT-MacShop-Notifier成果展示")]
+****
+參考教學網址:
+=============
