@@ -5,6 +5,7 @@
 ****
 一、創建Line Bot 帳號
 =============
+1.進入Line Developer官方網站，使用自己的Line帳號登入<br />https://developers.line.biz/zh-hant/
 ****
 **A line notify bot that can instantly notify yourself the latest page of AirPods selling articles on the PTT-MacShop board**
 ****
