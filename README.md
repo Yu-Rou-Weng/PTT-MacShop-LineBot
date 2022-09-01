@@ -3,7 +3,8 @@
 ****  
   **[使用須知]:<br />User：掃描我們的QRcode即可使用該服務<br />跑此專案需在本機下載最新版本的Python、創建Heroku帳號、創建LineBot帳號**
 ****
-一、
+一、創建Line Bot 帳號
+=============
 ****
 **A line notify bot that can instantly notify yourself the latest page of AirPods selling articles on the PTT-MacShop board**
 ****
