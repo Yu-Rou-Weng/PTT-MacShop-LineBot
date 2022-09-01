@@ -70,7 +70,7 @@ heroku_push.bat
 
 六、使用APP
 -------------
-##### <br />🎉回到Line Developer掃描Line Bot的QRcode就可以和機器人互動了!<br /><br />
+#### <br />🎉回到Line Developer掃描Line Bot的QRcode就可以和機器人互動了!<br /><br />
 
 七、點選影片以跳轉到Youtube觀看Demo影片
 -------------
