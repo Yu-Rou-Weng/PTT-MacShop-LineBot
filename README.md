@@ -1,71 +1,81 @@
 # PTT-MacShop-LineBot
-**暑假與@jieyu891225自學的簡易PTT Macshop版Line Bot**
-****  
-  **[使用須知]:<br />User：掃描我們的QRcode即可使用該服務<br />如果想下載此專案並自行創建LineBot請依下面指示<br />跑此專案需在本機下載最新版本的Python、Git套件、創建Heroku帳號、創建LineBot帳號**
-****
+
+###### *暑假與@jieyu891225協作的簡易小專案 —— 爬蟲+Line Bot實作。*
+
+## 專案內容
+#### 透過Line-Bot聊天機器人訂閱PTT-Macshop版上的特定產品(如：AirPods、iPhone、MacBook等)。使用者輸入搜尋關鍵字，機器人會爬取PTT-Macshop前三頁該產品的販售資訊，立即回覆給使用者文章標題、網址(手機板可看到文章內圖片縮圖)
+
+## 使用教學
+### 使用須知
+* **一般使用者**：加入我們 **LineBot ID:```@771ngxtr```** 即可使用該服務<br /><br />
+* **自行創建LineBot**: 依照指示跑此專案，需先在本機下載最新版本的**Python**、**Git套件**、**創建Heroku帳號**、**創建LineBot帳號**
+
 一、創建Line Bot 帳號
-=============
-1.進入Line Developer官方網站，使用自己的Line帳號登入<br />網址:https://developers.line.biz/zh-hant/<br />
-2.進入Provider頁面，點選Create按鈕，依照要求為自己的Provider Name輸入名字，這個就會是你LineBot機器人的名字，填完按Create儲存<br />
-3.點選我們剛創完的Provider，點擊畫面的"Create a Messaging API channel"<br />
-4.接著會進到Create a new channel畫面，這裡僅需把必填的欄位給入正確資訊即可，另外頭像的圖片(icon)可以依自身喜好新增，按create後屬於你自己的LineBot就建好啦!<br />
-****
+-------------
+1. 進入**Line Developer**官方網站，使用自己的Line帳號登入<br />**👉網址:https://developers.line.biz/zh-hant/**<br /><br />
+2. 進入**Provider**頁面，點選**Create**按鈕，依照要求為**Provider Name**輸入名字，這就會是你LineBot機器人的名字，填完按**Create**儲存<br /><br />
+3. 點選我們剛創完的Provider，點擊畫面的**Create a Messaging API channel**<br /><br />
+4. 接著會進到**Create a new channel**畫面，這裡僅需把必填的欄位給入正確資訊即可，頭像的圖片(**icon**)可以依自身喜好新增，按**create**後屬於你自己的LineBot就建好啦!<br />
+
 二、創建Heroku服務空間
-=============
-1.首先到Heroku官網註冊帳號<br />網址:https://www.heroku.com/<br />
-2.創建完畢後點選網頁右上方的New底下Create New APP<br />
-3.App Name填入自己取的名字(ex:oreo-linebot)、Choose a region按照預設的United States即可，填完後按Create app<br />
-****
-三、使用
-=============
-1.git Clone此專案到本機上，在此資料夾下開啟Visual Studio Code(記得先刪除README.md與圖片檔案，否則稍後push專案到Heroku上可能會失敗)<br />
-2.打開app.py，這裡須將程式碼中標記My Channel Access Token與My Channel Secret換成你剛才創好LineBot的Channel Access Token和Channel Secret<br />
-3.進到Line Develop網站上剛才創好的PTT-Macshop-Bot<br />
-4.進入Basic Settings頁籤中，看見Channel secret點選Issue後並把圖中代碼複製後貼到app.py對應的程式碼裡<br />
-5.接著進入Messaging API頁籤，點選Channel access token旁的Reissue後，隨意給個24 hr，把跳出的一串代碼一樣複製到app.py對應的程式碼裡<br />
-****
-三、使用
-=============
-1.進到Heroku上你創建好的App裡(譬如我的叫做oreo-linebot)<br /> 
-2.點選Settings頁籤，複製圖中Your app can be found at後的網址<br /> 
-3.進入你的Line Developer在Webhook URL複製剛才的網址並在後面加上"/callback"後儲存<br />
-4.下方有個Use webhook要按開啟<br />
-5.下方有Auto-reply messages(Line Bot自動回覆訊息功能)必須設為停用<br />
-6.Greeting messages為一開始加入LineBot的"加入好友的歡迎訊息"，本專案是自行設定如下:<br /><br />
-{Nickname}您好！
-我是{AccountName}。
-感謝您加入好友(moon wink)
+-------------
+1. 首先到**Heroku官網**註冊帳號**👉網址:https://www.heroku.com/**<br /><br />
+2. 創建完畢後點選網頁右上方的**New**底下**Create New APP**<br /><br />
+3. **App Name**填入自己取的名字(ex:oreo-linebot)、**Choose a region**按照預設的**United States**即可，填完後按**Create app**<br />
 
-(red arrow right)此帳號會依據您輸入的關鍵字，提供您PTT-Macshop版前三頁該產品販售最新資訊
+三、程式碼編輯
+-------------
+1. Git Clone此專案到本機上，在此資料夾下開啟**Visual Studio Code**<br /><br />(記得先刪除**README.md與圖片檔案**，否則稍後push專案到Heroku上可能會失敗)<br /><br />
+2. 打開app.py檔，這裡須將程式碼中標記**My Channel Access Token**與**My Channel Secret**換成你剛才創好LineBot的Channel Access Token和Channel Secret<br /><br />
+3. 進到Line Develop網站上剛才創好的PTT-Macshop-Bot<br /><br />
+4. 進入**Basic Settings**頁籤中，看見**Channel secret**點選Issue後並把圖中代碼複製後貼到app.py對應的程式碼裡<br /><br />
+5. 接著進入**Messaging API**頁籤，點選**Channel access token**旁的**Reissue**後，隨意給個24 hr，把跳出的一串代碼一樣複製到app.py對應的程式碼裡<br /><br />
 
-(warning)若輸入關鍵字機器人無回應，代表PTT-Macshop版前三頁目前無該產品販售資訊
+四、連動Heroku與LineBot設定
+-------------
+1. 進到Heroku上你創建好的App裡(譬如我的叫做oreo-linebot)<br /><br />
+2. 點選**Settings**頁籤，複製圖中**Your app can be found at**後的網址<br /><br /> 
+3. 進入你的Line Developer在**Webhook URL**複製剛才的網址並在後面加上```/callback```後儲存<br /><br />
+4. 下方有個**Use webhook**要按開啟<br /><br />
+5. 下方有**Auto-reply messages**(Line Bot自動回覆訊息功能)必須設為停用<br /><br />
+6. **Greeting messages**可自行設定一開始加入LineBot好友所接收的歡迎訊息
 
-(!)使用須知:
+五、上傳專案到Heroku
+-------------
+#### 登入Heroku
+```
+heroku login
+```
+#### 建立Git資料夾
+```
+git init
+```
+#### 綁定Heroku APP服務空間
+```
+heroku git:remote -a APP Name
+```
+#### 資料夾下已建好heroku_push.bat檔案
+##### 上傳檔案指令
+```
+git add .
+git commit -m "your message"
+git push heroku master
+```
 
-請輸入 "Help" 或 "help" 或 "HELP" ，本帳號將提供您關鍵字清單，請依指示操作，感謝您的使用!<br /><br />
+#### 在cmd下指令即可將專案上傳到Heroku伺服器上運行
+```
+heroku_push.bat
+```
 
-****
-四、上傳專案到Heroku
-=============
-1.打開VScode的Terminal進入cmd模式，接著打"heroku login"並登入自己的Heroku帳號<br />
-2.登入完後下git init<br />
-3.接著下heroku git:remote -a 你的app名稱(ex:oreo-linebot)<br /> 
-4.在專案的資料夾底下已建好一個heroku_push.bat的檔案裡<br />
-5.在heroku_push.bat已寫好下方指令:<br /><br />
-git add . (把所有檔案加入)<br />
-git commit -m "Final Success Version" (填寫commit資訊)<br />
-git push heroku master (push到heroku上)<br /><br />
-6.直接在cmd下heroku_push.bat指令即可將專案上傳到Heroku伺服器上運行
-****
-五、使用APP
-=============
-回到Line Developer掃描Line Bot的QRcode就完成了!
-****
-**A line notify bot that can instantly notify yourself the latest page of AirPods selling articles on the PTT-MacShop board**
-****
-**Click this picture to turn to the youtube vedio👇**
 
-[![IMAGE ALT TEXT](https://github.com/Yu-Rou-Weng/PTT-MacShop-LineBot/blob/master/%E9%A0%90%E8%A6%BD.jpg)](https://youtu.be/BAt43ldx5pA "PTT-MacShop-LineBot成果展示")
-****
-參考教學網址
-=============
+六、使用APP
+-------------
+##### 🎉回到Line Developer掃描Line Bot的QRcode就可以和機器人互動了!
+
+七、點選影片以跳轉到Youtube觀看Demo影片
+-------------
+[![IMAGE ALT TEXT](https://github.com/Emily-Weng/PTT-MacShop-Notifier/blob/main/line-notify.jpg)]([https://www.youtube.com/watch?v=yw8b3av3hro](https://www.youtube.com/watch?v=_Wi5hbto9QA) "PTT-MacShop-LineBot成果展示")]
+
+八、參考教學網址:
+-------------
+* [Maso萬事屋LineBot教學系列文章]https://ithelp.ithome.com.tw/users/20121176/ironman/3023
