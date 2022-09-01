@@ -1,5 +1,5 @@
 # PTT-MacShop-LineBot
-**暑假自學的簡易Line Notify Bot with @jieyu891225**
+**暑假與@jieyu891225自學的簡易PTT Macshop版Line Bot**
 ****  
   **[使用須知]:<br />User：掃描我們的QRcode即可使用該服務<br />如果想下載此專案並自行創建LineBot請依下面指示<br />跑此專案需在本機下載最新版本的Python、Git套件、創建Heroku帳號、創建LineBot帳號**
 ****
