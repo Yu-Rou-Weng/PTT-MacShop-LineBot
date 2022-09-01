@@ -26,6 +26,9 @@
 ****
 三、使用
 =============
+1.進到Heroku上你創建好的App裡(譬如我的叫做oreo-linebot)<br /> 
+2.點選Settings頁籤，複製圖中Your app can be found at後的網址<br /> 
+3.
 ****
 四、上傳專案到Heroku
 =============
