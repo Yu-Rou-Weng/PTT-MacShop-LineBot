@@ -24,18 +24,20 @@
 4.進入Basic Settings頁籤中，看見Channel secret點選Issue後並把圖中代碼複製後貼到app.py對應的程式碼裡<br />
 5.接著進入Messaging API頁籤，點選Channel access token旁的Reissue後，隨意給個24 hr，把跳出的一串代碼一樣複製到app.py對應的程式碼裡<br />
 ****
+三、使用
+=============
+****
 四、上傳專案到Heroku
 =============
-1.打開VScode的Terminal進入cmd模式，接著打"heroku login"並登入自己的Heroku帳號
-2.登入完後下git init
-3.接著下heroku git:remote 
-2.在專案的資料夾底下已建好一個heroku_push.bat的檔案裡<br />
-3.在heroku_push.bat已寫好下方指令:<br />
-
+1.打開VScode的Terminal進入cmd模式，接著打"heroku login"並登入自己的Heroku帳號<br />
+2.登入完後下git init<br />
+3.接著下heroku git:remote -a 你的app名稱(ex:oreo-linebot)<br /> 
+4.在專案的資料夾底下已建好一個heroku_push.bat的檔案裡<br />
+5.在heroku_push.bat已寫好下方指令:<br /><br />
 git add . (把所有檔案加入)<br />
 git commit -m "Final Success Version" (填寫commit資訊)<br />
-git push heroku master (push到heroku上)<br />
-
+git push heroku master (push到heroku上)<br /><br />
+6.直接在cmd下heroku_push.bat指令即可將專案上傳到Heroku伺服器上運行
 ****
 **A line notify bot that can instantly notify yourself the latest page of AirPods selling articles on the PTT-MacShop board**
 ****
