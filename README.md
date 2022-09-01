@@ -26,11 +26,16 @@
 ****
 四、上傳專案到Heroku
 =============
-1.在專案的資料夾底下已建好一個heroku_push.bat的檔案裡<br />
-2.在heroku_push.bat已寫好<br />
+1.打開VScode的Terminal進入cmd模式，接著打"heroku login"並登入自己的Heroku帳號
+2.登入完後下git init
+3.接著下heroku git:remote 
+2.在專案的資料夾底下已建好一個heroku_push.bat的檔案裡<br />
+3.在heroku_push.bat已寫好下方指令:<br />
+
 git add . (把所有檔案加入)<br />
 git commit -m "Final Success Version" (填寫commit資訊)<br />
 git push heroku master (push到heroku上)<br />
+
 ****
 **A line notify bot that can instantly notify yourself the latest page of AirPods selling articles on the PTT-MacShop board**
 ****
