@@ -31,7 +31,7 @@
 3.進入你的Line Developer在Webhook URL複製剛才的網址並在後面加上"/callback"後儲存<br />
 4.下方有個Use webhook要按開啟<br />
 5.下方有Auto-reply messages(Line Bot自動回覆訊息功能)必須設為停用<br />
-6.Greeting messages為一開始加入LineBot的"加入好友的歡迎訊息"，本專案是自行設定如下:<br />
+6.Greeting messages為一開始加入LineBot的"加入好友的歡迎訊息"，本專案是自行設定如下:<br /><br />
 {Nickname}您好！
 我是{AccountName}。
 感謝您加入好友(moon wink)
@@ -42,7 +42,8 @@
 
 (!)使用須知:
 
-請輸入 "Help" 或 "help" 或 "HELP" ，本帳號將提供您關鍵字清單，請依指示操作，感謝您的使用!
+請輸入 "Help" 或 "help" 或 "HELP" ，本帳號將提供您關鍵字清單，請依指示操作，感謝您的使用!<br /><br />
+
 ****
 四、上傳專案到Heroku
 =============
@@ -56,11 +57,15 @@ git commit -m "Final Success Version" (填寫commit資訊)<br />
 git push heroku master (push到heroku上)<br /><br />
 6.直接在cmd下heroku_push.bat指令即可將專案上傳到Heroku伺服器上運行
 ****
+五、使用APP
+=============
+回到Line Developer掃描Line Bot的QRcode就完成了!
+****
 **A line notify bot that can instantly notify yourself the latest page of AirPods selling articles on the PTT-MacShop board**
 ****
 **Click this picture to turn to the youtube vedio👇**
 
-[![IMAGE ALT TEXT](https://github.com/Emily-Weng/PTT-MacShop-Notifier/blob/main/line-notify.jpg)](https://www.youtube.com/watch?v=yw8b3av3hro "PTT-MacShop-Notifier成果展示")]
+[![IMAGE ALT TEXT](https://github.com/Emily-Weng/PTT-MacShop-Notifier/blob/main/line-notify.jpg)]([https://www.youtube.com/watch?v=yw8b3av3hro](https://www.youtube.com/watch?v=_Wi5hbto9QA) "PTT-MacShop-LineBot成果展示")]
 ****
 參考教學網址:
 =============
