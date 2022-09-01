@@ -78,4 +78,4 @@ heroku_push.bat
 
 八、參考教學網址:
 -------------
-* [Maso萬事屋LineBot教學系列文章]https://ithelp.ithome.com.tw/users/20121176/ironman/3023
+* [Maso萬事屋LineBot教學系列文章](https://ithelp.ithome.com.tw/users/20121176/ironman/3023)
