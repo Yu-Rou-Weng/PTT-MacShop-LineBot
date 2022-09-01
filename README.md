@@ -76,6 +76,6 @@ heroku_push.bat
 -------------
 [![IMAGE ALT TEXT](https://github.com/Yu-Rou-Weng/PTT-MacShop-LineBot/blob/master/%E9%A0%90%E8%A6%BD.jpg)](https://youtu.be/BAt43ldx5pA "PTT-MacShop-LineBot成果展示")
 
-<br />八、參考教學網址:
+八、參考教學網址:
 -------------
 * [Maso萬事屋LineBot教學系列文章]https://ithelp.ithome.com.tw/users/20121176/ironman/3023
